@@ -1,0 +1,3 @@
+[submodule "themes/blue"]
+	path = themes/blue
+	url = git@git.sr.ht:~orazov_ae/hugo-theme-blue

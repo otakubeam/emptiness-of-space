@@ -1,0 +1,6 @@
+---
+title: Wired
+
+---
+
+# Hello world
