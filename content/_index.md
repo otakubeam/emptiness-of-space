@@ -20,3 +20,8 @@ author: drew de vozaro
 ---
 
 Compatible with {{< figure src="/netsurf.png#center" alt="netsurf" >}}
+
+--- 
+
+Visit this site using Tor:
+[z3xm...](http://z3xm5zo4diwtck4qobw5vgyr3b6cmeatz3g44locbl54qbjwkxmhypqd.onion/)
