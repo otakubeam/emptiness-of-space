@@ -1,11 +1,14 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My new blue 3'
+title = 'emptiness-of-space'
 theme = 'blue'
 
-stylesheet = "/style.css"
-favicon = "/favicon.ico"
+favicon = "style/favicon.ico"
+languageCode = 'en-us'
 
 [markup]
   [markup.highlight]
-    style = 'bw'
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    noHl = false
+    style = 'api'
+    tabWidth = 4

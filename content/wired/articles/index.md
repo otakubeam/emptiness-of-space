@@ -3,8 +3,6 @@ Title: Ανδρέας Οράζοβ
 Summary: A free man
 ---
 
-{{< figure src="img/Aurora_Borealis_I.jpg#center" width=600 >}}
-
 {{< rawhtml >}}
   <div class="personal-card">
 
@@ -55,3 +53,6 @@ Summary: A free man
 
     </div>
 {{< /rawhtml >}}
+
+{{< figure src="img/Aurora_Borealis_I.jpg#center" width=600 >}}
+
