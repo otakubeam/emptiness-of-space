@@ -1,8 +1,12 @@
 ---
 title: Home page
 date: 10-07-22
-author: drew de vozaro
+author: orazov.ae
+markup.highlight.style: dracula
 ---
+
+Visit this site using Tor:
+[onion link](http://z3xm5zo4diwtck4qobw5vgyr3b6cmeatz3g44locbl54qbjwkxmhypqd.onion/)
 
 {{< highlight html >}}
   <html>
@@ -10,18 +14,10 @@ author: drew de vozaro
   </html>
 {{< /highlight >}}
 
--   Some content
-  - Here also
+
+- Some content
+- Here also
 
     > Comment
 
-
-
----
-
 Compatible with {{< figure src="/netsurf.png#center" alt="netsurf" >}}
-
---- 
-
-Visit this site using Tor:
-[z3xm...](http://z3xm5zo4diwtck4qobw5vgyr3b6cmeatz3g44locbl54qbjwkxmhypqd.onion/)

@@ -7,4 +7,4 @@ summary: How to contact me
 
 mailto: orazov.ae@phystech.edu
 
-![parabola](img/parabola.jpg "Lain using Parabol GNU/Linux-libre")
+{{< imgproc parabola Resize "600x" >}}
