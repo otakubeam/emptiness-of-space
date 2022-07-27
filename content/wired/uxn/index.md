@@ -1,5 +1,5 @@
 ---
-title: uxn
+title: Uxn
 date: 10-07-22
 author: its authors
 ---

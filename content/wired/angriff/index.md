@@ -1,8 +1,6 @@
 --- 
-title: Lain
-author: drew de vozaro
+title: Angriff
 customdate: 2021 Oct 08 (土) 08:42PM
-summary: Wired world for wired people
 ---
 
 Многие типа оппозиционные граждане (как из прошлого поста) испытывают
