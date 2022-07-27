@@ -12,3 +12,15 @@ languageCode = 'en-us'
     noHl = false
     style = 'api'
     tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

@@ -4,8 +4,9 @@ title: Who
 
 Here are supposed to be personal pages
 
-- orazov_ae
+- orazov.ae
 
-  仙人:
-  - immortal mountain wizard
-  - person not bound by earthly desires
+  - 仙人:
+
+     - immortal mountain wizard (esp. hermit)
+     - person not bound by earthly desires
