@@ -97,6 +97,6 @@ This month has been extremly prolific. That's great news. But the most deepest
 deep work is starting right now. It will be a challenge to maintain my focus as
 things keep getting harder but I'll try my best.
 
-{{< figure src="closed-tasks.png.png#center" alt="Closed tasks for this month" >}} 
+{{< figure src="closed-tasks.png#center" alt="Closed tasks for this month" >}} 
 
 
