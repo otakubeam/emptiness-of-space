@@ -3,6 +3,8 @@ title: Cabin
 customdate: 2022 Aug 01 (月) 08:52PM
 ---
 
+## (Under construction, don't mind this)
+
 ## Village living
 
 I want to live off-grid.
