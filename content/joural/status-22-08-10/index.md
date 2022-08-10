@@ -9,35 +9,39 @@ tags: ["status"]
 First thing I did was to add simple typing to the interpreter.
 This includes primitive types as well as function types.
 
-    fun factorial(n: Int) Int {
-       if n == 0 {
-          1
-       } else {
-          mul(n, factorial(n-1))
-       }
-    }
+```
+fun factorial(n: Int) Int {
+   if n == 0 {
+      1
+   } else {
+      mul(n, factorial(n-1))
+   }
+}
+```
 
-Otherwise I've added structs support. 
+Otherwise I've added structs support.
 Now I can do something like this:
 
-    struct Base {                       
-      a: Int,                           
-    };                                  
-                                        
-    struct Nested {                     
-      b: Base,                          
-    };                                  
-                                        
-    var inst = Nested:{Base:{123}};     
-                                        
-    fun takingStruct(str: Nested) Base {
-      str.b                             
-    }     
+```
+struct Base {
+  a: Int,
+};
+
+struct Nested {
+  b: Base,
+};
+
+var inst = Nested:{Base:{123}};
+
+fun takingStruct(str: Nested) Base {
+  str.b
+}
+```
 
 One thing I didn't consider was self-referential types.
 I guess I'll just want add pointers, huh?
 
-Otherwise I wanted to refactor things a bit, 
+Otherwise I wanted to refactor things a bit,
 because the code started to kind of drift apart. For example:
 
 1. I need to hookup locations with every AST node for better error messages.
@@ -54,7 +58,7 @@ because the code started to kind of drift apart. For example:
 
    Clearly, there is tension between inptepreter, intrinsics and bytecode vm.
 
-Speaking of which. I looked into different kinds of IR. 
+Speaking of which. I looked into different kinds of IR.
 
 - Modern Compiler Implementation by Andrew Appel was the first thing I read and
   honestly I think the treatment is pretty horrible. I just don't understand
