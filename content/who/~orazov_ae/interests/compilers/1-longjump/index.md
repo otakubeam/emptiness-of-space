@@ -1,5 +1,5 @@
 ---
-title: Function calls in SBlang
+title: 1. Function calls in SBlang
 customdate: 2022 Aug 31 (水) 07:38PM 
 ---
 
