@@ -1,5 +1,5 @@
 ---
-title: "Weekly update: 22-09-07"
+title: "Weekly update: 22-10-07"
 customdate: "2022 Oct 07 (金) 08:59AM"
 tags: ["status"]
 ---
