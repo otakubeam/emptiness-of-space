@@ -6,8 +6,8 @@ tags: ["status"]
 
 ## So, what did I manage to accomplish this week?
 
-Last time I decided to space out these reports a bit. It must be a good idea,
-but the periods of silence make it more difficult to start writing.
+Last time I decided to space out these reports a bit. It **must** be a good
+idea, but the periods of silence make it more difficult to start writing.
 
 Anyway, there is a lot of news going on. Mostly in relation to the VM for SBlang
 and French.
@@ -126,6 +126,47 @@ and French.
   takes a long time to become good. I'll try my best!
 
 ### French
+
+The course of French in my uni is exactly what I hoped it would be. It helps me
+to train with conjugations which would be difficult to do by myself. Also they
+make me write longer texts as homework like the one below!
+
+> Je m’appelle Tanaka Keiichi. Ma ville natale est Utukushima. C’est une très
+> très petite ville. Nous avons seulement trois milles des âmes. La plupart des
+> gens œuvrent dans les champes et les plantations. Il y a une école sur la
+> colline and tous les élèves doivent monter ce tous les matins. À vrai dire,
+> nous n’avons pas même une bibliothèque. Donc si quelqu'un veut lire quelque
+> chose (un livre d'aventure peut-être? ou le manuel), il doit conduire à
+> centre régional qu'est près notre ville. (Malheureuxment, non si près qu'on
+> puisse simplement aller à pied.
+> 
+> 
+> Mais, tout n’est pas si mal. Parce que nous avons la nature magnifique et
+> picturesque. Les forêts à l'entourage des sanctuaires shinto sommes parfaits
+> (ça veut dire intacte). Et pourtant nous n’avons pas beaucoup des
+> installations sportives, nous avons beaucoup d'activité physique parce que
+> c’est notre mode de la vie ici
+> 
+> 
+> Le temps offrit la grande variété: il fait chaud en l'été, il fait frais au
+> printemps, il pluie dans l'automne et il neige jusqu'aux genoux à l'hiver. La
+> vie est plus aise ici, je pense.
+>  
+> 
+> Recémment, je n’etais pas dans ma maison souvent. Je suis en train
+> d'entraînement en Russe université, après tout. Mais il y a beaucoup de
+> l'endroit où je veux visiter avec mes amis. Par exemple, le café à la rue
+> principale. J'y ai été très heureux. C’est mes moments les plus chers. Ma
+> jeunesse était là.
+
+I am somewhat proud that I can write something like this already. I've been
+readying "Les Misérables" by Victor Hugo. It's difficult, of course, but
+manageable. He is one of the reasons to be learning the language for me.
+
+### The Russian War
+
+I see it with fear and trepidation. One of my close friends is leaving russia
+for egypt and many of my colleagues decided to move too.
 
 ## Next week
 
