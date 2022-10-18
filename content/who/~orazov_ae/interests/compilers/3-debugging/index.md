@@ -75,7 +75,13 @@ In SBlang this takes the follwing form:
   - The dots directory works together with graph.sh to provide a much more
     visual approach to debuuging. 
 
-    {{< video autoplay="true" loop="true" src="graphviz-debugging.mkv" >}}
+{{< rawhtml >}} 
+
+<video width=100% controls autoplay>
+    <source src="./graphviz-debugging.mkv">
+</video>
+
+{{< /rawhtml >}}
 
     - Notice that the stack actually has variable names and types annotations
       
