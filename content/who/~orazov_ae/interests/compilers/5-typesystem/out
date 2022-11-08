@@ -1,0 +1,152 @@
+Filters: vm:codgen:struct:tree
+$15 ~ $23
+($23 -> $24) ~ $14
+$17 ~ *Tree( $8, )
+Unit ~> $10
+$17 ~ *$26
+$26 .left ~ $28
+$10 ~ $28
+Unit ~> $11
+$17 ~ *$29
+$29 .right ~ $31
+$11 ~ $31
+$17 ~ *$32
+$32 .value ~ $34
+$15 ~ $34
+$17 ~ $24
+
+
+Solving constraint $15 ~ $23
+Solving constraint (($23 => $15) -> $24) ~ $14
+Solving constraint $17 ~ *Tree( $8, )
+Solving constraint Unit ~> $10
+Solving constraint ($17 => *Tree( $8, )) ~ *$26
+Solving constraint $26 .left ~ $28
+Solving constraint $10 ~ $28
+Solving constraint Unit ~> $11
+Solving constraint ($17 => *Tree( $8, )) ~ *$29
+Solving constraint $29 .right ~ $31
+Solving constraint $11 ~ $31
+Solving constraint ($17 => *Tree( $8, )) ~ *$32
+Solving constraint $32 .value ~ $34
+Solving constraint $15 ~ $34
+Solving constraint ($17 => *Tree( $8, )) ~ $24
+Unit ~> $10
+Tree( $8, ) ~ $26
+$26 .left ~ ($28 => $10)
+Unit ~> $11
+Tree( $8, ) ~ $29
+$29 .right ~ ($31 => $11)
+Tree( $8, ) ~ $32
+$32 .value ~ ($34 => $15)
+
+
+Solving constraint Unit ~> $10
+Solving constraint Tree( $8, ) ~ $26
+Solving constraint ($26 => Tree( $8, )) .left ~ ($28 => $10)
+Applied tycons struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, }
+Solving constraint Unit ~> $11
+Solving constraint Tree( $8, ) ~ $29
+Solving constraint ($29 => Tree( $8, )) .right ~ ($31 => $11)
+Applied tycons struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, }
+Solving constraint Tree( $8, ) ~ $32
+Solving constraint ($32 => Tree( $8, )) .value ~ ($34 => $15)
+Applied tycons struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, }
+Unit ~> $10
+struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, } .left ~ ($28 => $10)
+Unit ~> $11
+struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, } .right ~ ($31 => $11)
+struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, } .value ~ ($34 => $15)
+
+
+Solving constraint Unit ~> $10
+Solving constraint struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, } .left ~ ($28 => $10)
+Solving constraint Unit ~> $11
+Solving constraint struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, } .right ~ ($31 => $11)
+Solving constraint struct { left: *Tree( $8, ), right: *Tree( $8, ), value: $8, } .value ~ ($34 => $15)
+Unit ~> ($10 => *Tree( $8, ))
+Unit ~> ($11 => *Tree( $8, ))
+
+
+Solving constraint Unit ~> ($10 => *Tree( $8, ))
+Solving constraint Unit ~> ($11 => *Tree( $8, ))
+
+
+($50) ~ $18
+Call ($52 -> *Tree( $52, ))
+(Int -> $56) ~ ($52 -> *Tree( $52, ))
+$19 ~ $56
+$21 ~ *Tree( Int, )
+$21 ~ *$62
+Call ($58 -> *Tree( $58, ))
+($62 -> $64) ~ ($58 -> *Tree( $58, ))
+$22 ~ $64
+Unit ~ $50
+
+
+Solving constraint ($50) ~ $18
+Solving constraint Call ($52 -> *Tree( $52, ))
+Solving constraint (Int -> $56) ~ ($52 -> *Tree( $52, ))
+Solving constraint $19 ~ $56
+Solving constraint $21 ~ *Tree( Int, )
+Solving constraint ($21 => *Tree( Int, )) ~ *$62
+Solving constraint Call ($58 -> *Tree( $58, ))
+Solving constraint ($62 -> $64) ~ ($58 -> *Tree( $58, ))
+Solving constraint $22 ~ $64
+Solving constraint Unit ~ $50
+Int ~ $52
+($56 => $19) ~ *Tree( $52, )
+Tree( Int, ) ~ $62
+$62 ~ $58
+($64 => $22) ~ *Tree( $58, )
+
+
+Solving constraint Int ~ $52
+Solving constraint ($56 => $19) ~ *Tree( ($52 => Int), )
+Solving constraint Tree( Int, ) ~ $62
+Solving constraint ($62 => Tree( Int, )) ~ $58
+Solving constraint ($64 => $22) ~ *Tree( ($58 => Tree( Int, )), )
+
+
+(Int -> *Tree( Int, ))
+Adding a node to the queue
+(Tree( Int, ) -> *Tree( Tree( Int, ), ))
+Adding a node to the queue
+Finished processing main
+[!] Processing item
+[!] Symbol
+[!] Symbol
+[!] Poly (($23 => G8) -> ($24 => *Tree( G8, )))
+[!] Mono (Int -> *Tree( Int, ))
+[!] Processed item
+[!] Processing item
+[!] Symbol
+[!] Symbol
+[!] Poly (($23 => G8) -> ($24 => *Tree( G8, )))
+[!] Mono (Tree( Int, ) -> *Tree( Tree( Int, ), ))
+[!] Processed item
+name: consTree type: (Int -> *Tree( Int, ))
+name: consTree type: (Tree( Int, ) -> *Tree( Tree( Int, ), ))
+name: main type: (Unit)
+Measuring Tree( Int, ) for left
+Measuring Tree( Int, ) for right
+Measuring Tree( Int, ) for value
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests is a Catch v2.13.9 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+vm:codgen:struct:tree
+-------------------------------------------------------------------------------
+/home/va/0-crafting-interpreters/interpreter/tests/vm/codegen.cpp:343
+...............................................................................
+
+/home/va/0-crafting-interpreters/interpreter/tests/vm/codegen.cpp:343: FAILED:
+due to a fatal error condition:
+  SIGSEGV - Segmentation violation signal
+
+===============================================================================
+test cases: 1 | 1 failed
+assertions: 1 | 1 failed
+
