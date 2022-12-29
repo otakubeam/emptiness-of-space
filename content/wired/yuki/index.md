@@ -1,5 +1,5 @@
 --- 
-title: Thinkpad
+title: Yuki Subahibi 
 ---
 
-{{< figure src="yuki.jpg#center" width=600 >}}
+{{< figure src="yuki.jpg#center" >}}
