@@ -74,7 +74,6 @@ fun main argc argv = f(0);
 именем во вложенном *scope*.
 
 ```text
-
     fun f x y z = {               <<------ 0:f (x | y | z)
 
         var x = y + z;            <<------ 0:f:0 (x)
@@ -88,17 +87,17 @@ fun main argc argv = f(0);
         };       <<------ 0:f:0:1 (y)
 
     };
-
 ```
 
 Что произойдет в вашей реализации при исполнении подобного кода?
 
-```
-var a = 1;
-{
-  var a = a + 2;
-  print(a);
-}
+```text
+    var a = 1;
+
+    {
+        var a = a + 2;
+        print(a);
+    }
 ```
 
 [Related: Let Expression](https://en.wikipedia.org/wiki/Let_expression)
